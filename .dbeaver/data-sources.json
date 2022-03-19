@@ -1,0 +1,48 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17ed1efc831-9bff824a544a23f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "UserLocalDatabase",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "/usr/local/mysql-8.0.27-macos11-x86_64",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17f851e7ae3-6d8c809a7b36ca68": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "MySQL",
+				"url": "jdbc:mysql://localhost:3306/MySQL",
+				"home": "/usr/local/mysql-8.0.27-macos11-x86_64",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
